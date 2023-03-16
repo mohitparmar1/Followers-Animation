@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 150px;
+}
+
+.container{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    background-color:#90e0ef;
+    width: 400px;
+    height: 200px;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 20px;
+}
+
+.ph{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.instagram, .youtube,.twitter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.instagram{
+    color: #ff006e;
+}
+.youtube{
+    color: #8338ec;
+}
+.twitter{
+    color: #3a86ff;
+}
