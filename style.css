@@ -26,6 +26,12 @@ body{
     border-radius: 20px;
 }
 
+input{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+
 .ph{
     display: flex;
     justify-content: center;
