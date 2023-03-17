@@ -4,6 +4,5 @@ let btnEl = document.getElementById("#btn-el")
 function generateOtp(){
     let value = Math.floor(Math.random()*100000 + 10)
     inputEl.textContent = value
-    console.log(value)
 }
  
